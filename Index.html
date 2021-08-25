@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calculadora IMC</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/CSS" href="CSS/Style.css"> 
+    <script type="text/javascript" src="JS/main_IMC.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Bootstrap/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/bootstrap-5.0.0-beta2-dist/js/bootstrap.esm.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap-grid.min.css"></script>
+    <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"></script>
+    <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap-reboot.min.css"></script>
+    <meta name="description" content="Formas em que se pode entrar em contato comigo!" />
+    <meta name="author" content="Robson Diego Andrade de Oliveira" />
+  </head>
+  <body>
+    <header class="header-h1">
+        <center><h1 class="main-h1">Calculadora IMC</h1></center>    
+    </header>
+    </br>
+    <div class="section over-hide z-bigger">
+		<div class="background-color"></div>
+		<div class="section over-hide z-bigger">
+			<div class="container pb-5">
+                <div class="row justify-content-center pb-5">   
+                    <div class="col-12 pb-5">
+                        <p>Sexo</p>
+                        <input class="checkbox-tools" type="radio" name="tools" id="tool-1" checked>
+                        <label class="for-checkbox-tools" for="tool-1">
+                            <i class='uil uil-line-alt'></i>
+                            Homem
+                        </label>
+                        <input class="checkbox-tools" type="radio" name="tools" id="tool-2">
+                        <label class="for-checkbox-tools" for="tool-2">
+                            <i class='uil uil-vector-square'></i>
+                            Mulher
+                        </label> 
+                    </div>
+                    <div class="mb-4">
+                        <label for="age" class="form-label">Idade</label>
+                        <center><input type="number" class="form-control" id="ageID" placeholder="18" style="width: 300px;" required></center>
+                        </br>
+                        <label for="hgt" class="form-label">Altura</label>
+                        <center><input type="text" class="form-control" id="hgtID" placeholder="1.87" style="width: 300px;" required></center>
+                        <p class="test t">m</p>
+                        <label for="peso" class="form-label">Peso</label>
+                        <center><input type="text" class="form-control" id="pesoID" placeholder="73.5" style="width: 300px;" required></center>
+                        <p class="test t">kg</p>
+                        </br>
+                    </div>
+                    <button type="button" class="btn btn-outline-light" style= "width: 300px;" onclick= "calcular()">Calcular</button>       
+                </div>
+            </div>    
+        </div>   
+    </div>
+  </body>
+</html>
