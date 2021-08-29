@@ -13,19 +13,21 @@
     <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap-grid.min.css"></script>
     <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"></script>
     <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap-reboot.min.css"></script>
-    <meta name="description" content="Formas em que se pode entrar em contato comigo!" />
+    <script src="https://kit.fontawesome.com/4d674e9075.js" crossorigin="anonymous"></script>
     <meta name="author" content="Robson Diego Andrade de Oliveira" />
   </head>
   <body>
-    <header class="header-h1">
-        <center><h1 class="main-h1">Calculadora IMC</h1></center>    
-    </header>
-    </br>
     <div class="section over-hide z-bigger">
+        <input class="checkbox" type="checkbox" name="general" id="general">
+		<label class="for-checkbox" for="general"></label>
 		<div class="background-color"></div>
 		<div class="section over-hide z-bigger">
 			<div class="container pb-5">
-                <div class="row justify-content-center pb-5">   
+                <div class="row justify-content-center pb-5">
+                    <div class="div-h1">
+                        <center><h1 class="main-h1">Calculadora IMC</h1></center>    
+                    </div>
+                    </br>   
                     <div class="col-12 pb-5">
                         <p>Sexo</p>
                         <input class="checkbox-tools" type="radio" name="tools" id="tool-1" checked>
@@ -50,8 +52,15 @@
                         <center><input type="text" class="form-control" id="pesoID" placeholder="73.5" style="width: 300px;" required></center>
                         <p class="test t">kg</p>
                         </br>
+                        <button type="button" class="btn btn-outline-light" style= "width: 300px;" onclick= "calcular()">Calcular</button> 
                     </div>
-                    <button type="button" class="btn btn-outline-light" style= "width: 300px;" onclick= "calcular()">Calcular</button>       
+                    </br>
+                    </br>
+                    </br>
+                    <div id="div-test" style= "width: 350px;">
+                        <center><p class="titulo-result"></p></center>
+                        <p id="test"></p>
+                    </div>      
                 </div>
             </div>    
         </div>   
