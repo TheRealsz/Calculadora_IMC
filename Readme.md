@@ -2,7 +2,7 @@
   <p>Calculadora IMC</p>
 </h1>
 
-> Projeto feito para estudos, para aplicar o conhecimento obtido em javascript num projeto que poderá ser util para alguem
+> Projeto feito para estudos, para aplicar o conhecimento obtido em javascript num projeto que poderá ser útil para alguém.
 
 > Foi desenvolvido usando HTML, CSS, Bootstrap e Javascript
 
@@ -18,7 +18,7 @@
 
 
 ## Introdução
-A Calculadora IMC foi projetada para ajudar as pessoas a identificar dentro do padrão do IMC se esta dentro do peso ideal para suas caracteristicas fisicas.
+A Calculadora IMC foi projetada para ajudar as pessoas a identificar dentro do padrão do IMC se esta dentro do peso ideal para suas características físicas.
 IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa. O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.
 
 - **É um projeto feito para estudos**
@@ -33,14 +33,14 @@ IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organiza
 * Javascript
 
 ## Funcionalidades
-O projeto possui uma unica funcionalidade, que é a de "Calcular" o seu IMC. Ele pegara as seguintes informacões disponibilizadas pelo usuario, para poder calcular corretamente.
+O projeto possui uma única funcionalidade, que é a de "Calcular" o seu IMC. Ele ira pegar as seguintes informações disponibilizadas pelo usuário, para poder calcular corretamente.
 
 - `Sexo`
 - `Idade`
-- `Altura` - Em metros e com "." ao inves de "," para separar as casas decimais
-- `Peso` - Em quilogramas e com "." ao inves de "," para separar as casas decimais
+- `Altura` - Em metros e com "." ao invés de "," para separar as casas decimais
+- `Peso` - Em quilogramas e com "." ao invés de "," para separar as casas decimais
 
-Alem disso, se tem tambem uma funcionalidade para poder trocar o tema entre claro ou escuro, clicando no botao localizado na parte inferior direito.
+Além disso, se tem também uma funcionalidade para poder trocar o tema entre claro ou escuro, clicando no botão localizado na parte inferior direita.
 
 ## Utilização do projeto
 Para utilizar o projeto, é preciso unicamente acessar o link a seguir:
