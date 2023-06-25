@@ -45,10 +45,10 @@ Além disso, se tem também uma funcionalidade para poder trocar o tema entre cl
 ## Utilização do projeto
 Para utilizar o projeto, é preciso unicamente acessar o link a seguir:
 
-- [Calculadora IMC](https://therealrobinho.github.io/Calculadora_IMC/Index.html)
+- [Calculadora IMC](https://therealsz.github.io/Calculadora_IMC/Index.html)
 
 ## Contato
-Temos algumas formas de contato, elas podem ser encontradas [aqui](https://github.com/TheRealRobinho)
+Temos algumas formas de contato, elas podem ser encontradas [aqui](https://github.com/TheRealsz)
 
 ## Status do projeto
 :white_check_mark: Finalizado :white_check_mark:
