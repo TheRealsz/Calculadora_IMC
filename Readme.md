@@ -54,4 +54,4 @@ Temos algumas formas de contato, elas podem ser encontradas [aqui](https://githu
 :white_check_mark: Finalizado :white_check_mark:
 
 ## Autores
-[<img src="https://avatars.githubusercontent.com/u/77800184?v=4" width=185><br><sub>Robson Diego Andrade de Oliveira</sub>](https://github.com/TheRealRobinho)
+[<img src="https://avatars.githubusercontent.com/u/77800184?v=4" width=185><br><sub>Robson Diego Andrade de Oliveira</sub>](https://github.com/TheRealsz)
